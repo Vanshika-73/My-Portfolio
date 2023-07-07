@@ -1,4 +1,4 @@
-import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo } from "../assets";
+import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell } from "../assets";
   
   export const navLinks = [
     {
@@ -28,10 +28,6 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
   ];
   
   const technologies = [
@@ -47,10 +43,7 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+
     {
       name: "React JS",
       icon: reactjs,
@@ -91,6 +84,16 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
   
   const experiences = [
     {
+      title: "Full Stack Intern",
+      company_name: "UdyamWell",
+      icon: udyamwell,
+      iconBg: "#383E56",
+      date: "Sept 2022 - Oct 2022",
+      points: [
+        "Developing and maintaining web applications using  Mern Stack technology.",
+      ],
+    },
+    {
       title: "Front-end Developer",
       company_name: "Madhuram",
       icon: madhuram,
@@ -109,7 +112,7 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       iconBg: "black",
       date: " Dec 2022 - Mar 2023",
       points: [
-        "Developing and maintaining web applications using  Mern Stack technologies.",
+        "Developing and maintaining web applications using  Mern Stack technology.",
         "Developed various frontend pages.",
         "Developed image crousel using Js.",
         "helped in developing backend code.",
@@ -171,9 +174,39 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
   
   const projects = [
     {
+      name: "Proshop",
+      description:
+        "This, an Ecommerce project using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project aimed to create a fully functional and user-friendly online marketplace for selling products. Frontend link is provided in the web link. Register yourself and enjoy the experience on online selling platform.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodeJs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "expressJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+      ],
+      image: proshop,
+      source_code_link: "https://github.com/Vanshika-73/Proshop",
+      web_link:"https://proshop-five-beta.vercel.app/"
+    },
+    {
       name: "Quiz Game",
       description:
-        "Web-based platform that allows users to test their knowledge by answering atmost 5 questions in various fields.",
+        "Web-based platform that allows users to test their knowledge by answering atmost 5 questions in various fields. This is made using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
       tags: [
         {
           name: "react",

@@ -20,8 +20,8 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
+import threejs from "./tech/threejs.png";
+import udyamwell from './udyamwell.png';
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -35,6 +35,7 @@ import gdsc from './company/gdsc.png';
 import Quiz from './Quiz.png';
 import todo from './todo.png';
 import web from './web.png';
+import proshop from './proshop.png';
 export {Quiz, todo,
   gdsc,
   madhuram,
@@ -67,5 +68,7 @@ export {Quiz, todo,
   tesla,
   carrent,
   jobit,
+  proshop,
+  udyamwell,
   tripguide,
 };
