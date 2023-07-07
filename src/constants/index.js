@@ -199,6 +199,9 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
           color: "green-text-gradient",
         },
       ],
+      image: portfolio,
+      source_code_link: "https://github.com/Vanshika-73/My-Portfolio",
+      web_link:"https://my-portfolio-ten-iota-52.vercel.app/"
     },
     {
       name: "Proshop",
@@ -226,9 +229,9 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
           color: "green-text-gradient",
         },
       ],
-      image: portfolio,
-      source_code_link: "https://github.com/Vanshika-73/My-Portfolio",
-      web_link:"https://my-portfolio-ten-iota-52.vercel.app/"
+      image: proshop,
+      source_code_link: "https://github.com/Vanshika-73/Proshop",
+      web_link:"https://proshop-five-beta.vercel.app/"
     },
     {
       name: "Quiz Game",
