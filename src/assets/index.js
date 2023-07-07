@@ -36,7 +36,8 @@ import Quiz from './Quiz.png';
 import todo from './todo.png';
 import web from './web.png';
 import proshop from './proshop.png';
-export {Quiz, todo,
+import portfolio from './portfolio.png';
+export {Quiz, todo, portfolio,
   gdsc,
   madhuram,
   techfest,

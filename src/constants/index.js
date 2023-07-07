@@ -1,4 +1,4 @@
-import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell } from "../assets";
+import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell, portfolio } from "../assets";
   
   export const navLinks = [
     {
@@ -174,6 +174,33 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
   
   const projects = [
     {
+      name: "Portfolio",
+      description:
+        "This is a personal portfolio project that I developed for myself to make my own identification to stand out from crowd by showcasing my skills.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodeJs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "expressJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threeJs",
+          color: "green-text-gradient",
+        },
+      ],
+    },
+    {
       name: "Proshop",
       description:
         "This, an Ecommerce project using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project aimed to create a fully functional and user-friendly online marketplace for selling products. Frontend link is provided in the web link. Register yourself and enjoy the experience on online selling platform.",
@@ -199,9 +226,9 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
           color: "green-text-gradient",
         },
       ],
-      image: proshop,
-      source_code_link: "https://github.com/Vanshika-73/Proshop",
-      web_link:"https://proshop-five-beta.vercel.app/"
+      image: portfolio,
+      source_code_link: "https://github.com/Vanshika-73/My-Portfolio",
+      web_link:"https://my-portfolio-ten-iota-52.vercel.app/"
     },
     {
       name: "Quiz Game",
