@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { ig, linkedIn } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -25,8 +26,8 @@ const Contact = () => {
       ...form,
       [name]: value,
     });
+    console.log("email",form.email)
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -55,6 +56,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div
       className={`xl:mt-12 flex lg:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
@@ -120,6 +122,11 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+      <motion.div style={{display:"flex",justifyContent:"center",alignItems:"center",marginTop:"30px"}}>
+        <img src={ig} alt="" height={'70px'} width={'70px'}/>
+        <img src={linkedIn} alt=""  height={'70px'} width={'70px'} />
+      </motion.div>
+    </>
   );
 };
 

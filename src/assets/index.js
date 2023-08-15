@@ -4,7 +4,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 // import web from "./web.png";
-import github from "./github.png";
+import github from "./tech/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -37,7 +37,9 @@ import todo from './todo.png';
 import web from './web.png';
 import proshop from './proshop.png';
 import portfolio from './portfolio.png';
-export {Quiz, todo, portfolio,
+import ig from './ig.png';
+import linkedIn from './linkedIn.png';
+export {Quiz, todo, portfolio, ig,linkedIn,
   gdsc,
   madhuram,
   techfest,

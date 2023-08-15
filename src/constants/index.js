@@ -88,7 +88,7 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       company_name: "UdyamWell",
       icon: udyamwell,
       iconBg: "#383E56",
-      date: "Sept 2022 - Oct 2022",
+      date: "july 2023 - current",
       points: [
         "Developing and maintaining web applications using  Mern Stack technology.",
       ],
