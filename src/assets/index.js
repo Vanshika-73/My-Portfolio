@@ -39,6 +39,7 @@ import proshop from './proshop.png';
 import portfolio from './portfolio.png';
 import ig from './ig.png';
 import linkedIn from './linkedIn.png';
+import udyamWellProject from './udyamwell_project.jpg';
 export {Quiz, todo, portfolio, ig,linkedIn,
   gdsc,
   madhuram,
@@ -73,5 +74,5 @@ export {Quiz, todo, portfolio, ig,linkedIn,
   jobit,
   proshop,
   udyamwell,
-  tripguide,
+  tripguide, udyamWellProject
 };

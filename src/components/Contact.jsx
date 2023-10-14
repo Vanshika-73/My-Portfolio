@@ -7,6 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { ig, linkedIn } from "../assets";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,15 +34,19 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send("service_076kr84","template_1qwm08m",{
+      .send("service_1iy8zee","template_0c1s297",{
         from_name: form.name,
         to_name: "Vanshika",
         from_email: form.email,
         to_email:"vanshikabansal73@gmail.com",
         message: form.message
-      },"DqqpcIQh-6omPzAX4").then(()=>{
+      },"PFGN0Kduzfms5LuKQ").then(()=>{
         setLoading(false);
-        alert("Thank You, I will be get back to you soon.");
+        Swal.fire(
+          'Thank You!',
+          'I will get back to you via Email!',
+          'success'
+        )
         setForm({
           name: "",
           email: "",
@@ -51,14 +56,14 @@ const Contact = () => {
         console.log(form);
         setLoading(false);
         console.log(error);
-        alert('Something went wrong')
+        Swal.fire('Try Again in sometime please!')
       })
   };
 
   return (
     <>
     <div
-      className={`xl:mt-12 flex lg:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-6 flex lg:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -113,6 +118,10 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <motion.div style={{display:"flex",justifyContent:"center",alignItems:"center",marginTop:"30px"}}>
+          <a href="https://www.instagram.com/bansal_vanshi/"><img src={ig} alt="" height={'70px'} width={'70px'}/></a>
+        <a href="https://www.linkedin.com/in/vanshika-367136222/"><img src={linkedIn} alt=""  height={'50px'} width={'70px'} /></a>
+      </motion.div>
       </motion.div>
 
       <motion.div
@@ -122,10 +131,7 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
-      <motion.div style={{display:"flex",justifyContent:"center",alignItems:"center",marginTop:"30px"}}>
-        <img src={ig} alt="" height={'70px'} width={'70px'}/>
-        <img src={linkedIn} alt=""  height={'70px'} width={'70px'} />
-      </motion.div>
+     
     </>
   );
 };

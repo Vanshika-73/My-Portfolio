@@ -1,4 +1,4 @@
-import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell, portfolio } from "../assets";
+import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell, portfolio, udyamWellProject } from "../assets";
   
   export const navLinks = [
     {
@@ -90,7 +90,9 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       iconBg: "#383E56",
       date: "july 2023 - current",
       points: [
-        "Developing and maintaining web applications using  Mern Stack technology.",
+        "Currently holding the position in the founding team of UdyamWell.",
+        "Developing and maintaining web applications using  Mern Stack technology",
+        " Single handedly developed frontend of the website and contributed in backend part too."
       ],
     },
     {
@@ -232,6 +234,32 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       image: proshop,
       source_code_link: "https://github.com/Vanshika-73/Proshop",
       web_link:"https://proshop-five-beta.vercel.app/"
+    },
+    {
+      name: "UdyamWell",
+      description:
+        "This is a website made for UdyamWell private limited. A startup for to help rural enterprises to grow.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodeJs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "expressJs",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: udyamWellProject,
+      source_code_link: "#",
+      web_link:"https://udyamwell.com/"
     },
     {
       name: "Quiz Game",
