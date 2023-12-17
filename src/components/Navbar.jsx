@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { styles } from "../styles";
 import { navLinks } from "../constants/index.js";
 import { Link } from "react-router-dom";
-// import {myLogo} from '../assets/myLogo.png';
-import { logo, myLogo, menu, close } from "../assets/index.js";
+import { logo, menu, close } from "../assets/index.js";
 const Navbar = () => {
-  //40.23
   const [active, setActive] = useState("");
   const [toggle,setToggle]=useState(false);
   return (

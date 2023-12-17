@@ -6,13 +6,12 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { ig, linkedIn } from "../assets";
+import { github2, ig, linkedIn } from "../assets";
 import Swal from "sweetalert2";
 
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: "",
     email: "",
     message: "",
   });
@@ -119,8 +118,9 @@ const Contact = () => {
           </button>
         </form>
         <motion.div style={{display:"flex",justifyContent:"center",alignItems:"center",marginTop:"30px"}}>
-          <a href="https://www.instagram.com/bansal_vanshi/"><img src={ig} alt="" height={'70px'} width={'70px'}/></a>
         <a href="https://www.linkedin.com/in/vanshika-367136222/"><img src={linkedIn} alt=""  height={'50px'} width={'70px'} /></a>
+        <a href="https://www.github.com/vanshika-73"><img src={github2} alt=""  height={'50px'} width={'60px'} style={{marginLeft:"4px"}}/></a>
+          <a href="https://www.instagram.com/bansal_vanshi/"><img src={ig} alt="" height={'70px'} width={'70px'}/></a>
       </motion.div>
       </motion.div>
 

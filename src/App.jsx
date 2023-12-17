@@ -1,7 +1,8 @@
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
+import Achievements from "./components/Achievements";
+import Testimonials from './components/Testimonials';
 const App = ()=> {
-  //2.40.22
   return (
     <div className="relative z-0 bg-primary">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -12,7 +13,9 @@ const App = ()=> {
       <Experience/>
       <Tech/>
       <Works/>
-      {/* <Feedbacks/> */}
+      <Achievements/>
+      {/* <Testimonials/> */}
+      <Feedbacks/>
       <div className="relative z-0">
         <Contact/>
         <StarsCanvas/>

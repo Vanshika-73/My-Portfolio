@@ -1,4 +1,4 @@
-import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell, portfolio, udyamWellProject } from "../assets";
+import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell, portfolio, udyamWellProject, Aditya, certificate2, certificate1, udyamwell_certificate, naivedyam, madhuram_web, ms_conclave, madhuram_Anchoring, anchoring, techfest23, coding_spardha, sachin_sir } from "../assets";
   
   export const navLinks = [
     {
@@ -72,27 +72,19 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
   ];
   
   const experiences = [
     {
-      title: "Full Stack Intern",
+      title: "Frontend Developer",
       company_name: "UdyamWell",
       icon: udyamwell,
       iconBg: "#383E56",
-      date: "july 2023 - current",
+      date: "June 2023 - Sept 2023",
       points: [
-        "Currently holding the position in the founding team of UdyamWell.",
+        "Got the position in the founding team of UdyamWell.",
         "Developing and maintaining web applications using  Mern Stack technology",
-        " Single handedly developed frontend of the website and contributed in backend part too."
+        "Single handedly developed frontend of the website and contributed in backend part too."
       ],
     },
     {
@@ -132,45 +124,24 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
         "Developed frontend pages related to the user registrataion and gave validations."
       ],
     },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I highly recommend Vanshika for any Frontend Web Developer role. Her exceptional technical skills, collaborative spirit, and dedication were evident during her internship at UdyamWell Private Limited. Vanshika's talent and commitment make her an excellent fit for particular role.",
+      name: "Sachin Korla",
+      designation: "Founder & CEO",
+      company: "UdyamWell Private Limited",
+      image: sachin_sir,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Vanshika has been an exceptional contributor to our GDSC remote project. Her dedication, attention to detail, and proactive approach have greatly enhanced our project's quality. I highly recommend Vanshika for her outstanding work and collaborative nature in each sprints of GDSC project.",
+      name: "Aditya Bathani",
+      designation: "Software Developer",
+      company: "Drupal",
+      image:Aditya,
     },
   ];
   
@@ -302,5 +273,36 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
       web_link:"https://to-do-nine-delta.vercel.app/"
     },
   ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  const achievements = [
+    {
+      img:certificate1
+    },
+    {
+      img:certificate2
+    },
+    {
+      img:udyamwell_certificate
+    },
+    {
+      img:naivedyam
+    },
+    {
+      img:madhuram_web
+    },
+    {
+      img:ms_conclave
+    },
+    {
+      img:madhuram_Anchoring
+    },
+    {
+      img:anchoring
+    },
+    {
+      img:techfest23
+    },
+    {
+      img:coding_spardha
+    }
+  ]
+  export { services, technologies, experiences, testimonials, projects,achievements };

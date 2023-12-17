@@ -39,7 +39,20 @@ import proshop from './proshop.png';
 import portfolio from './portfolio.png';
 import ig from './ig.png';
 import linkedIn from './linkedIn.png';
+import github2 from './github2.png';
 import udyamWellProject from './udyamwell_project.jpg';
+import Aditya from './testimonials/Aditya.jpg';
+import madhuram_Anchoring from './achievements/madhuram_Anchoring.jpg';
+import naivedyam from './achievements/naivedyam.jpg';
+import udyamwell_certificate from './achievements/udyamwell_certificate.png';
+import techfest23 from './achievements/techfest23.jpg';
+import ms_conclave from './achievements/ms_conclave.jpg';
+import madhuram_web from './achievements/madhuram_web.jpg';
+import anchoring from './achievements/anchoring.jpg';
+import certificate2 from './achievements/certificate2.png';
+import certificate1 from './achievements/certificate1.png';
+import coding_spardha from './achievements/coding_spardha.jpg';
+import sachin_sir from './testimonials/sachin_sir.jpg';
 export {Quiz, todo, portfolio, ig,linkedIn,
   gdsc,
   madhuram,
@@ -72,7 +85,20 @@ export {Quiz, todo, portfolio, ig,linkedIn,
   tesla,
   carrent,
   jobit,
+  github2,
   proshop,
   udyamwell,
-  tripguide, udyamWellProject
+  tripguide, udyamWellProject,
+  Aditya,
+  coding_spardha,
+  certificate1,
+  certificate2,
+  anchoring,
+  madhuram_web,
+  ms_conclave,
+  techfest23,
+  udyamwell_certificate,
+  naivedyam,
+  madhuram_Anchoring,
+  sachin_sir
 };
