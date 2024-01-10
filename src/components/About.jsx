@@ -45,7 +45,7 @@ const About = () => {
     <motion.p variants={fadeIn("","",0.01,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
     As a MERN stack developer, I possess the skills and expertise to create dynamic and interactive web applications. With a strong foundation in JavaScript and a deep understanding of the MERN (MongoDB, Express.js, React.js, Node.js) stack, I am equipped to build robust and scalable solutions. My passion for front-end development, coupled with my proficiency in back-end technologies, allows me to deliver seamless user experiences while ensuring efficient server-side functionality. I am committed to staying up-to-date with the latest industry trends and best practices, enabling me to create cutting-edge applications that meet the evolving needs of users.
     <div>
-      <button onClick={()=>window.open("https://drive.google.com/file/d/1HwhIYFGQ33F3PHaioHpa8MjliaQHuysf/view?usp=sharing","_blank")} className='bg-tertiary p-4 rounded-2xl font-bold mt-2 text-white'>Resume</button>
+      <button onClick={()=>window.open("https://drive.google.com/file/d/1xQyS43QN6FH4CvmWwCyjT7yXI5kiPo0V/view?usp=sharing","_blank")} className='bg-tertiary p-4 rounded-2xl font-bold mt-2 text-white'>Resume</button>
     </div>
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
