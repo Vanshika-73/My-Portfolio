@@ -275,13 +275,13 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
   ];
   const achievements = [
     {
+      img:udyamwell_certificate
+    },
+    {
       img:certificate1
     },
     {
       img:certificate2
-    },
-    {
-      img:udyamwell_certificate
     },
     {
       img:naivedyam
