@@ -33,13 +33,13 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send("service_1iy8zee","template_0c1s297",{
+      .send("service_bcg7bg6","template_0c1s297",{
         from_name: form.name,
         to_name: "Vanshika",
         from_email: form.email,
         to_email:"vanshikabansal73@gmail.com",
         message: form.message
-      },"PFGN0Kduzfms5LuKQ").then(()=>{
+      },"zjtg mnru lxgf rthv").then(()=>{
         setLoading(false);
         Swal.fire(
           'Thank You!',
