@@ -12,6 +12,7 @@ import Swal from "sweetalert2";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
+    name:"",
     email: "",
     message: "",
   });
@@ -26,24 +27,17 @@ const Contact = () => {
       ...form,
       [name]: value,
     });
-    console.log("email",form.email)
   };
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
-      .send("service_bcg7bg6","template_0c1s297",{
-        from_name: form.name,
-        to_name: "Vanshika",
-        from_email: form.email,
-        to_email:"vanshikabansal73@gmail.com",
-        message: form.message
-      },"zjtg mnru lxgf rthv").then(()=>{
+      .send("service_ovzcswr","template_u1su2ob",form,"PFGN0Kduzfms5LuKQ").then(()=>{
         setLoading(false);
         Swal.fire(
           'Thank You!',
-          'I will get back to you via Email!',
+          'I will get back to you via Email ASAP!',
           'success'
         )
         setForm({
@@ -52,9 +46,7 @@ const Contact = () => {
           message: "",
         })
       },(error)=>{
-        console.log(form);
         setLoading(false);
-        console.log(error);
         Swal.fire('Try Again in sometime please!')
       })
   };
@@ -83,7 +75,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your Name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-small'
             />
           </label>

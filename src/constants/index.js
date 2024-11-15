@@ -1,4 +1,4 @@
-import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell, portfolio, udyamWellProject, Aditya, certificate2, certificate1, udyamwell_certificate, naivedyam, madhuram_web, ms_conclave, madhuram_Anchoring, anchoring, techfest23, coding_spardha, sachin_sir } from "../assets";
+import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs, redux, tailwind, nodejs,mongodb, git,figma,docker,meta,   techfest,gdsc,shopify,carrent,jobit,tripguide, threejs,madhuram,Quiz, todo, proshop, udyamwell, portfolio, udyamWellProject, Aditya, certificate2, certificate1, udyamwell_certificate, naivedyam, madhuram_web, ms_conclave, madhuram_Anchoring, anchoring, techfest23, coding_spardha, sachin_sir, freelancer, praxisforge, arivvan } from "../assets";
   
   export const navLinks = [
     {
@@ -76,6 +76,17 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
   
   const experiences = [
     {
+      title: "Freelancer",
+      company_name: "Virtual Clients",
+      icon: freelancer,
+      iconBg: "#383E56",
+      date: "Present",
+      points: [
+        "Get hired by individuals or companies requiring freelancers.",
+        "Closely interact with the clients & deliever the required website they ask for!!"
+      ],
+    },
+    {
       title: "Frontend Developer",
       company_name: "UdyamWell",
       icon: udyamwell,
@@ -147,34 +158,30 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
   
   const projects = [
     {
-      name: "Portfolio",
+      name: "Praxisforge",
       description:
-        "This is a personal portfolio project that I developed for myself to make my own identification to stand out from crowd by showcasing my skills.",
+        "This is my freelance project where I created a static website keeping all the requirements of my client. It has strongly enhanced my tech skills along with my intra-personal skills like communication, problem-solving.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
+      ],
+      image: praxisforge,
+      web_link:"https://praxisforge.com"
+    },
+    {
+      name: "Arivvan",
+      description:
+        "This is my freelance project where I created a static website keeping all the requirements of my client. It has strongly enhanced my tech skills along with my intra-personal skills like communication, problem-solving.",
+      tags: [
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "nodeJs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "expressJs",
+          name: "react",
           color: "blue-text-gradient",
         },
-        {
-          name: "threeJs",
-          color: "green-text-gradient",
-        },
       ],
-      image: portfolio,
-      source_code_link: "https://github.com/Vanshika-73/My-Portfolio",
-      web_link:"https://my-portfolio-ten-iota-52.vercel.app/"
+      image: arivvan,
+      web_link:"https://arivvan.com"
     },
     {
       name: "Proshop",
@@ -229,7 +236,6 @@ import {mobile, backend, creator, web, javascript,typescript, html, css, reactjs
         },
       ],
       image: udyamWellProject,
-      source_code_link: "#",
       web_link:"https://udyamwell.com/"
     },
     {

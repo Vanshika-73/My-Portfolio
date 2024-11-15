@@ -22,12 +22,12 @@ const ProjectCard = ({index,name,description,tags,image, source_code_link,web_li
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name}  className='w-full h-full object-cover rounded-2xl'/>
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div onClick={()=> window.open(source_code_link)} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ' >
+           {source_code_link &&  <div onClick={()=> window.open(source_code_link)} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ' >
               <img src={github} alt="github" className='w-1/2 h-1/2'/>
-            </div>
-            <div onClick={()=> window.open( web_link )} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2' >
+            </div>}
+           {web_link &&  <div onClick={()=> window.open( web_link )} className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2' >
               <img src={web} alt="github" className='w-1/2 h-1/2'/>
-            </div>
+            </div>}
           </div>
         </div>
 

@@ -7,7 +7,7 @@ import mobile from "./mobile.png";
 import github from "./tech/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import freelancer from './freelancer.png';
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -53,7 +53,9 @@ import certificate2 from './achievements/certificate2.png';
 import certificate1 from './achievements/certificate1.png';
 import coding_spardha from './achievements/coding_spardha.jpg';
 import sachin_sir from './testimonials/sachin_sir.jpg';
-export {Quiz, todo, portfolio, ig,linkedIn,
+import praxisforge from './praxisforge.png';
+import arivvan from './arivvan.png';
+export {Quiz, todo, portfolio, ig,linkedIn,praxisforge,arivvan,
   gdsc,
   madhuram,
   techfest,
@@ -99,6 +101,7 @@ export {Quiz, todo, portfolio, ig,linkedIn,
   techfest23,
   udyamwell_certificate,
   naivedyam,
+  freelancer,
   madhuram_Anchoring,
   sachin_sir
 };
